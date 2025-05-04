@@ -1,0 +1,191 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nukul Lilhare - Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <!-- Font Awesome CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <body>
+    <header>
+      <div class="logo-container">
+        <img src="profile/logo.png" alt="Logo" class="logo" />
+      </div>
+      <div class="socials">
+        <a href="https://www.linkedin.com/in/nukul-lilhare-ba0542254" target="_blank" aria-label="LinkedIn">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+        <a href="https://github.com/nukul6446" target="_blank" aria-label="GitHub">
+          <i class="fab fa-github"></i>
+        </a>
+        <a href="https://x.com/LilhareNuk23530?t=BvpMBJhWmpiYc2JU8Ob_6A&s=09" target="_blank" aria-label="Twitter">
+          <i class="fab fa-x-twitter"></i>
+        </a>
+      </div>
+    </header>
+  
+    <main>
+      <section class="hero">
+        <div class="profile-wrapper">
+          <img src="profile/im.png" alt="Profile" class="profile-img" />
+        </div>
+        <h1>Nukul Lilhare</h1>
+        <p>
+          I am a passionate full-stack developer with a strong interest in building scalable and clean web applications.
+          I enjoy turning ideas into real-world solutions using HTML, CSS, JavaScript, MERN stack, and modern design tools.
+          I’m always eager to learn new technologies and contribute to open source.
+        </p>
+      </section>
+  
+      <section class="skills">
+        <h2>Skills & Technologies</h2>
+        <div class="tech-icons">
+            <a href="https://html.spec.whatwg.org/" target="_blank" aria-label="HTML5">
+              <i class="fab fa-html5"></i>
+            </a>
+            <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank" aria-label="CSS3">
+              <i class="fab fa-css3-alt"></i>
+            </a>
+            <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" aria-label="JavaScript">
+              <i class="fab fa-js"></i>
+            </a>
+            <a href="https://reactjs.org/" target="_blank" aria-label="React">
+              <i class="fab fa-react"></i>
+            </a>
+            <a href="https://nodejs.org/en/" target="_blank" aria-label="Node.js">
+              <i class="fab fa-node"></i>
+            </a>
+            <a href="https://www.mongodb.com/" target="_blank" aria-label="MongoDB">
+              <i class="fas fa-database"></i>
+            </a>
+            <a href="https://git-scm.com/" target="_blank" aria-label="Git">
+              <i class="fab fa-git-alt"></i>
+            </a>
+            <a href="https://www.figma.com/" target="_blank" aria-label="Figma">
+              <i class="fab fa-figma"></i>
+            </a>
+          </div>
+          
+      </section>
+  
+      <section class="projects">
+        <h2>Projects</h2>
+        <ul>
+          <li><strong>Portfolio Website</strong> – Personal site to showcase my skills, projects, and resume.</li>
+          <li><strong>Hotel Booking</strong> – A MERN-based location-wise hotel recommendation platform.</li>
+          <li><strong>SkillBridge</strong> – A virtual skill development platform for upskilling the workforce(working).</li>
+          <li><strong>UX Project for E-commerce</strong> – Designed and developed a seamless user experience for an e-commerce platform, focusing on intuitive navigation and improving user interaction.</li>
+        </ul>
+      </section>
+  
+      <section class="contact">
+        <h2>Contact</h2>
+        <p>Email: <a href="nukullilhare007@gmail.com">nukullilhare007@gmail.com</a></p>
+      </section>
+    </main>
+  </body>
+  </html>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    color: #333;
+  }
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #1f2937;
+  }
+  .logo-container img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  .socials a {
+    margin-left: 15px;
+    font-size: 1.5rem;
+    color: #ffffff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  /* Add color to social media icons */
+  .socials a:hover {
+    color: #1da1f2; /* Twitter Blue on hover */
+  }
+  .hero {
+    text-align: center;
+    padding: 40px 20px;
+  }
+  .profile-wrapper {
+    width: 180px;
+    height: 180px;
+    margin: 0 auto 20px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 4px solid #1f2937;
+  }
+  .profile-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .skills, .projects, .contact {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  .skills h2, .projects h2, .contact h2 {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  .tech-icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    font-size: 2rem;
+    margin-top: 10px;
+  }
+  /* Colorful icons for tech stack */
+  .tech-icons i {
+    color: #e34f26; /* HTML Color */
+  }
+  .tech-icons .fa-css3-alt {
+    color: #264de4; /* CSS Color */
+  }
+  .tech-icons .fa-js {
+    color: #f7df1e; /* JavaScript Color */
+  }
+  .tech-icons .fa-react {
+    color: #61dbfb; /* React Color */
+  }
+  .tech-icons .fa-node {
+    color: #8cc84b; /* Node.js Color */
+  }
+  .tech-icons .fa-database {
+    color: #00aaff; /* Database Color */
+  }
+  .tech-icons .fa-git-alt {
+    color: #f1502f; /* Git Color */
+  }
+  .tech-icons i:hover {
+    transform: scale(1.2); /* Make the icons grow slightly on hover */
+  }
+  .projects ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  .projects li {
+    margin-bottom: 10px;
+  }
+  .contact a {
+    color: #1f2937;
+    text-decoration: underline;
+  }
+ 
+
+project 2 
+figma Link ->>>    https://www.figma.com/design/bqe1AnO3p5CtwoxZEpkZak/nowad14314-s-team-library?node-id=3333-84&t=FfxyTIaM7TGDfqq8-1
